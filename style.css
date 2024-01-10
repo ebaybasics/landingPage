@@ -136,7 +136,7 @@
     align-items: center;
 }
 .quote {
-    height: 400ps;
+    /* height: 400ps; */
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -165,4 +165,43 @@
 
 .quote__author p {
     font-weight: 700;
+}
+
+.action {
+    display: flex;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner {
+    width: 60%;
+    height: 80px;
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: #3882F6;
+    flex-shrink: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.banner > * {
+    color: #F9FAF8;
+}
+.banner--bold {
+    font-weight: 700;
+}
+
+.banner__button button {
+    background-color: inherit;
+    border-color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-align: center;
+    color: inherit;    
 }
