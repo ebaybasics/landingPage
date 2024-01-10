@@ -89,6 +89,9 @@
     border-radius: 12px;
 }
 
+.body {
+    min-height: 400px;
+}
 .body__content {
     display: flex;
     flex-direction: column;
@@ -123,4 +126,43 @@
     flex-wrap: wrap;
     width: 100px;
 
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    height: 400ps;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    max-height: 100%;
+    font-size: 2.2vw;
+
+}
+.quote__content p {
+    
+    font-style: italic;
+    color: #1F2937;
+    flex-wrap: wrap;
+    min-height: 0;
+    min-width: 0;
+    max-height: 100%;
+
+}
+
+.quote__author {
+    align-self: flex-end;
+    
+}
+
+.quote__author p {
+    font-weight: 700;
 }
